@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Contact Us Web Tests">
+        <parameter name="test" value="Web"/>
+        <classes>
+            <class name="RegresionTests">
+                <parameter name="app" value="PC"/>
+                <parameter name="width" value="1440"/>
+                <parameter name="height" value="4339"/>
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Contact Us Tablet Tests">
+        <parameter name="test" value="Tablet"/>
+        <classes>
+            <class name="RegresionTests">
+    <parameter name="app" value="Tablet"/>
+    <parameter name="width" value="800"/>
+    <parameter name="height" value="1024"/>
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Contact Us Mobile Tests">
+        <parameter name="test" value="Mobile"/>
+        <classes>
+            <class name="RegresionTests">
+    <parameter name="app" value="Mobile"/>
+    <parameter name="width" value="350"/>
+    <parameter name="height" value="900"/>
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
